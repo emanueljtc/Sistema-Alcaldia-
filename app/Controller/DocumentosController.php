@@ -14,7 +14,7 @@ class DocumentosController extends AppController {
  *
  * @var array
  */
-	public $components = array('Paginator', 'Session');
+	public $components = array('Paginator', 'Session','RequestHandler');
 
 /**
  * index method
@@ -109,16 +109,6 @@ class DocumentosController extends AppController {
 		}
 		return $this->redirect(array('action' => 'index'));
 	}
-	public function create_pdf(){
- 
-    $users = $this->User->find('all');
- 
-    $this->set(compact('users'));
- 
-    $this->layout = '/pdf/default';
- 
-    $this->render('/Pdf/my_pdf_view');
- 
-}
+	
 
 }
