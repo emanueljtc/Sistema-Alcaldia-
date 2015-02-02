@@ -6,7 +6,7 @@
 <br>
 <div class="login">
 	<div class="login_interno">
-		<?php echo $this->Session->flash('auth',array('class'=>'alert alert-dismissable alert-success')); ?>
+		<?php echo $this->Session->flash('auth',array('class'=>'alert alert-dismissable alert-danger')); ?>
 		<div class="avatar">
 			<!--AQUI LLAMO AL AVATAR-->
 		</div>

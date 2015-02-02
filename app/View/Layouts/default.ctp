@@ -105,8 +105,13 @@ $cakeVersion = __d('cake_dev', 'CakePHP %s', Configure::version())
 
 							</nav>
 
-						<!-- Search -->
-							
+						
+							<!-- Search -->
+								<section class="box search">
+								<form method="post" action="#">
+									<input type="text" class="text" name="find" placeholder="Buscar por Cedula" />
+								</form>
+							</section>
 					<!-- Creado -->
 							<ul id="copyright">
 								<li>&copy; Creado por :</li><li><a href="">Diana Tovar & Maryelis Ache</a></li>

@@ -14,8 +14,11 @@ class DocumentosController extends AppController {
  *
  * @var array
  */
-	public $components = array('Paginator', 'Session','RequestHandler');
-
+	public $components = array('Paginator', 'Session','RequestHandler','Search.Prg');
+	/*public $paginate = array (
+			'limit' => 6,
+			'order' => array('Documento.nombre' => 'asc')
+			);*/
 /**
  * index method
  *
@@ -24,6 +27,14 @@ class DocumentosController extends AppController {
 	public function index() {
 		$this->Documento->recursive = 0;
 		$this->set('documentos', $this->Paginator->paginate());
+		$this->Prg->commonProcess();
+		// process the URL parameters
+        $params = $this->Prg->parsedParams();
+        // generate the Paginator conditions
+        $conditions = $this->Documento->parseCriteria($params);
+        // add the conditions for paging
+        $this->Paginator->settings['conditions'] = $conditions;
+        $this->set('documentos', $this->Paginator->paginate());
 	}
 
 /**
@@ -109,6 +120,10 @@ class DocumentosController extends AppController {
 		}
 		return $this->redirect(array('action' => 'index'));
 	}
+	 public function find() {
+        $this->Prg->commonProcess();
+        $this->Paginator->settings['conditions'] = $this->Documento->parseCriteria($this->Prg->parsedParams());
+        $this->set('documentos', $this->Paginator->paginate());
+    }
 	
-
 }

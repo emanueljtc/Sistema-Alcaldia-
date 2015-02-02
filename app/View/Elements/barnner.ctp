@@ -11,4 +11,4 @@ img {
 }
 
 </style>
-<img src="app/webroot/img/barnner.png" alt="Alcadia del Estado Guárico" width="780" height="129">
+<img src="app/webroot/img/barnner.png" alt="Alcaldia del Estado Guárico" width="780" height="129">

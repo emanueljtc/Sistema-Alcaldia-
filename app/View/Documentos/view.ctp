@@ -71,122 +71,10 @@
 
 
 		</TABLE>
-		<!-- <table >
-				<tr><br><h5>Cedula</h5><tr>
-			<tr>
-				<?php echo h($documento['Documento']['cedula']); ?>			&nbsp;
-			</tr>		
-
-		</table>
 		
-		<dt><h5>Nombre</h5></dt>
-		<dd>
-			<?php echo h($documento['Documento']['nombre']); ?>
-			&nbsp;
-		</dd>
-		<dt><h5>Apellido</h5></dt>
-		<dd>
-			<?php echo h($documento['Documento']['apellidos']); ?>
-			&nbsp;
-		</dd>
-		<dt><h5>Municipio</h5></dt>
-		<dd>
-			<?php echo h($documento['Documento']['municipio']); ?>
-						&nbsp;
-		</dd>
-		<dt><h5>Parroquia</h5></dt>
-		<dd>
-		<?php echo h($documento['Documento']['parroquia']); ?>
-			&nbsp;
-		</dd>
-		<dt><h5>Telefono</h5></dt>
-		<dd>
-			<?php echo h($documento['Documento']['telefono']); ?>
-				&nbsp;
-		</dd>
-		<dt><h5>Direccion</h5></dt>
-		<dd>
-			<?php echo h($documento['Documento']['direccion']); ?>
-				&nbsp;
-		</dd>
-		<dt><h5>Copia de Cedula</h5></dt>
-		<dd>
-			<?php echo h($documento['Documento']['copiacedula']); ?>
-				&nbsp;
-		</dd>
-		<dt><h5>Constancia de Residencia</h5></dt>
-		<dd>
-			<?php echo h($documento['Documento']['constancia_r']); ?>
-				&nbsp;
-        </dd>
-        <dt>
-        <h5>Carta de Exposicion de Motivos</h5>
-        </dt>
-        <dd>
-        	<?php echo h($documento['Documento']['carta_m']); ?>
-				&nbsp;
-		</dd>
-		<dt><h5>Presupuesto</h5></dt>
-		<dd>
-			<?php echo h($documento['Documento']['presupuesto']); ?>
-				&nbsp;
-		</dd>
-		<dt><h5>Carpeta</h5></dt>
-		<dd>
-			<?php echo h($documento['Documento']['carpeta']); ?>
-						&nbsp;
-		</dd>
-	</dl> -->
-			<!-- <table class="">
-
-				<br><br>
-					<tr class="success">
-						<td>Cedula</td>
-						<td>Nombre</td>
-						<td>Apellido</td>
-						<td>Municipio</td>
-						<td>Parroquia</td>
-						<td>Telefono</td>
-						<td>Direccion</td>
-						<td>Copia de Cedula<td>
-						<td>Constancia de Residencia</td>
-						<td>Carta - Motivos</td>
-						<td>Presupuesto</td>
-						<td>Carpeta</td>
-					</tr>
-
-					<tr>
-						<td><?php echo h($documento['Documento']['cedula']); ?>
-						&nbsp;</td>
-						<td><?php echo h($documento['Documento']['nombre']); ?>
-						&nbsp;</td>
-						<td><?php echo h($documento['Documento']['apellidos']); ?>
-						&nbsp;</td>
-						<td><?php echo h($documento['Documento']['municipio']); ?>
-						&nbsp;</td>
-						<td><?php echo h($documento['Documento']['parroquia']); ?>
-						&nbsp;</td>
-						<td><?php echo h($documento['Documento']['telefono']); ?>
-						&nbsp;</td>
-						<td><?php echo h($documento['Documento']['direccion']); ?>
-						&nbsp;</td>
-						<td><?php echo h($documento['Documento']['copiacedula']); ?>
-						&nbsp;</td>
-						<td><?php echo h($documento['Documento']['constancia_r']); ?>
-						&nbsp;</td>
-						<td><?php echo h($documento['Documento']['carta_m']); ?>
-						&nbsp;</td>
-						<td><?php echo h($documento['Documento']['presupuesto']); ?>
-						&nbsp;</td>
-						<td><?php echo h($documento['Documento']['carpeta']); ?>
-						&nbsp;</td>
-					</tr>
-
-
-			</table> -->	
 		</div>
 		
-	<A HREF="http://localhost/reporte.pdf">Imprimir</A>
+	
 	<br> <br><br>
 									
 	</div>
@@ -195,6 +83,7 @@
 		
 			<?php echo $this->Html->link(__('Nuevo Documento'), array('action' => 'add'), array('class' => 'btn btn-danger')); ?>
 		<?php echo $this->Html->link(__('Lista de Documentos'), array('actions'=>'index'), array('class' => 'btn btn-info')); ?>
+		<?php echo $this->Html->link(__('I'), array('action' => 'view', $documento['Documento']['id'].'.pdf' ),array('class' => 'btn btn-sm btn-default')); ?>
 		
 	</div>
 </div>

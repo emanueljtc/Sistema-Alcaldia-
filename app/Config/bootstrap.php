@@ -67,7 +67,6 @@ Cache::config('default', array('engine' => 'File'));
  *
  * CakePlugin::loadAll(); // Loads all plugins at once
  * CakePlugin::load('DebugKit'); //Loads a single plugin named DebugKit
-
  *
  */
 	CakePlugin::load('AclExtras');
@@ -76,19 +75,21 @@ Cache::config('default', array('engine' => 'File'));
 		Configure::write('CakePdf', array(
         'engine' => 'CakePdf.WkHtmlToPdf',
         'options' => array(
-            'print-media-type' => false,
+            'print-media-type' => true,
             'outline' => true,
             'dpi' => 96
         ),
         'margin' => array(
             'bottom' => 15,
-            'left' => 50,
-            'right' => 30,
-            'top' => 45
+            'left' => 10,
+            'right' => 10,
+            'top' => 20
         ),
-        'orientation' => 'landscape',
-        'download' => true
+        'orientation' => 'portrait',
+        'download' => true,
+
     ));
+	CakePlugin::load('Search');
 
 	
 /**

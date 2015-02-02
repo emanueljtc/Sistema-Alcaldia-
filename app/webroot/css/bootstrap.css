@@ -4716,8 +4716,11 @@ a.thumbnail.active {
 }
 .message{
   padding: 15px;
-  margin-bottom: 18px;
-  border: 1px solid transparent;
+  margin-bottom: 20px;
+  background-color: #0B91CB;
+  border-color: #000000;
+  border: 1px;
+  color: #ffffff;
   }
 .alert-success {
   background-color: #dff0d8;

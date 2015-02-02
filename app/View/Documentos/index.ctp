@@ -10,33 +10,34 @@
 	</div>
 	<center>
 	<div class="col-lg-12">
+			
 		<table class="table table-striped table-hover">
-
+		
 					<tr class="success">
-
+						
 						<th><?php echo $this->Paginator->sort('cedula'); ?>
 						<th><?php echo $this->Paginator->sort('nombre'); ?></th>
 						<th><?php echo $this->Paginator->sort('apellidos'); ?></th>
-
-						<th><?php echo $this->Paginator->sort('parroquia'); ?></th>
+						
+						<th><?php echo $this->Paginator->sort('municipio'); ?></th>
 						<th><?php echo $this->Paginator->sort('telefono'); ?></th>
 						<th><?php echo $this->Paginator->sort('direccion'); ?></th>
-
+						
 						<th class="actions"><?php echo __('Acciones'); ?></th>
 					</tr>
-
+				
 				<tbody>
 				<?php foreach ($documentos as $documento): ?>
 				<tr>
-
+					
 					<td><?php echo h($documento['Solvencia']['cedula']); ?>&nbsp;</td>
 					<td><?php echo h($documento['Documento']['nombre']); ?>&nbsp;</td>
 					<td><?php echo h($documento['Documento']['apellidos']); ?>&nbsp;</td>
-
-					<td><?php echo h($documento['Documento']['parroquia']); ?>&nbsp;</td>
+					
+					<td><?php echo h($documento['Documento']['municipio']); ?>&nbsp;</td>
 					<td><?php echo h($documento['Documento']['telefono']); ?>&nbsp;</td>
 					<td><?php echo h($documento['Documento']['direccion']); ?>&nbsp;</td>
-
+					
 					<td class="actions">
 						<?php echo $this->Html->link(__('V'), array('action' => 'view', $documento['Documento']['id']),array('class' => 'btn btn-sm btn-default')); ?>
 						<?php echo $this->Html->link(__('I'), array('action' => 'view', $documento['Documento']['id'].'.pdf' ),array('class' => 'btn btn-sm btn-default')); ?>
@@ -48,17 +49,17 @@
 					</tbody>
 		</table>
 	</div>
-
-
+	
+	
 	</div>
 	<paginador><!-- etiqueta personalidad-->
 		<?php echo $this->element('paginador');?>
 	</paginador>
 </div>
 <div class="btn-group btn-group-justified">
-
-
+	
+	
 		<?php echo $this->Html->link(__('Nuevo Documento'), array('action' => 'add'), array('class' => 'btn btn-danger')); ?>
 		<?php echo $this->Html->link(__('Lista de Documentos'), array('action' => 'index'), array('class' => 'btn btn-info')); ?>
-
+	
 </div>

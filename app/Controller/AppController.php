@@ -31,24 +31,9 @@ class AppController extends Controller {
         );
         $this->Auth->allow('display');
     }
-   public $banana = array(
-        'Municipio' => array(
-          'parentClass'=>null,
-          'foreignKey' => null,
-          //'fields'=>array('other_field'),
-          'conditions'=>null,
-          'childClass'=>'Municipio',
-          'update'=>array('Municipio','parroquia')
-        ),
-        
-        'Parroquia'=>array(
-          'parentClass'=>'Municipio', 
-          'foreignKey' => 'municipio_id',
-          'conditions'=> null,
-          'childClass'=>null
-        )
-      );
-
+   
+  
+ 
     
 
 }
