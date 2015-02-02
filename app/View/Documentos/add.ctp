@@ -8,7 +8,7 @@
     border: 2px solid #000;
     background-size: cover;
     background-image: url('../img/documento.png');
-   
+
   }
 
 </style>
@@ -33,7 +33,7 @@
 				// deshabilitamos
 				document.getElementById("parroquiachg").hidden=true;
 			}
-			
+
 			if(value=="El Socorro")
 			{
 				// habilitamos
@@ -69,7 +69,7 @@
 			}else {
 				// deshabilitamos
 				document.getElementById("parroquiamlld").hidden=true;
-				
+
 			}
 			if(value=="Miranda")
 			{
@@ -152,8 +152,8 @@
 				// deshabilitamos
 				document.getElementById("parroquiazrz").hidden=true;
 			}
-			
-			
+
+
 		}
 	</script>
 
@@ -164,19 +164,19 @@
 <div class="col-lg-6">
 	<div class="bloque">
 		<div class="avatar">
-		</div> 
+		</div>
 		<?php echo $this->Form->create('Documento'); ?>
 			<fieldset>
-				
+
 			<?php
 				echo $this->Form->input('solvencia_id', array('class'=>'form-control'));
 				echo $this->Form->input('nombre');
 				echo $this->Form->input('apellidos');
 				/*echo $this->Form->input('municipio',array('class'=>'form-control','type'=>'select','name="municipio"','id="municipio"','onchange="habilitar(this.value);"','options'=>array('camaguan'=>'Camaguan','chaguaramas'=>'Chaguaramas','socorro'=>'El Socorro','infante'=>'Infante','mercedes'=>'Las Mercedes','mellado'=>'Mellado','miranda'=>'Miranda','monagas'=>'Monagas','ortiz'=>'Ortiz','ribas'=>'Ribas','roscio'=>'Roscio','guayabal'=>'San Geronimo de Guayabal','guaribe'=>'San Jose de Guaribe','ipire'=>'Santa Maria de Ipire','zaraza'=>'Zaraza')));*/
 				echo"<br>";
-				
-														
-				echo "<select name='municipio' id='municipio' onchange='habilitar(this.value)'>";
+
+
+				echo "<select name='data[Documento][municipio]' id='municipio' onchange='habilitar(this.value)'>";
 				echo "<option value='0'>Elige</option>";
 				echo "<option value='Camaguán'>Camaguán</option>";
 				echo "<option value='Chaguaramas'>Chaguaramas</option>";
@@ -202,7 +202,7 @@
 				echo "<option value=''>Parroquia Uverito</option>";
 				echo "</select>";
 				/*echo $this->Form->input('parroquia',array('class'=>'form-control','type'=>'select','name="parroquia"','id="parroquiachg"','options'=>array('camaguan'=>' Camaguan','puerto miranda'=>' Puerto Miranda','uverito'=>' Uverito','chaguaramas'=>' Chaguaramas','socorro'=>' El Socorro','calvario'=>' El Calvario','rastro'=>' El Rastro','guardatinajas'=>'Guardatinajas','calabozo'=>'Calabozo','tucupido'=>'Tucupido','san rafael de laya'=>'San Rafael de Laya','lezama'=>'San Francisco Javier de Lezama','macaira'=>'Paso Real de Macaira','soublette'=>'Carlos Soublette','san francisco de macaira'=>'San Francisco de Macaira','orituco'=>'Libertad de Orituco','cantagallo'=>'Cantagallo','san juan de los morros'=>'San Juan de los Morros','parapara'=>'Parapara','el sombrero'=>'El Sombrero','sosa'=>'Sosa','las mercedes'=>'Las Mercedes','cabruta'=>'Cabruta','santa rita de manapire'=>'Santa Rita de Manapire','Valle la Pascua'=>'Valle la Pascua','Espino'=>'Espino','San Jose de Tiznados'=>'San Jose de Tiznados','San Francisco de Tiznados'=>'San Francisco de Tiznados','San Lorenzo de Tiznados','San Lorenzo de Tiznados'=>'San Lorenzo de Tiznados','ortiz'=>'Ortiz','San José de Unare'=>'San José de Unare','Zaraza'=>'Zaraza')));*/
-					
+
 
 				echo $this->Form->input('telefono', array('class'=>'form-control'));
 				echo $this->Form->input('direccion');
@@ -215,18 +215,18 @@
 			?>
 			</fieldset>
 			<br>
-			
+
 			<center>
 			<input type="submit" value="Guardar" class="button float-shadow">
 			<center>
-		
+
 	</div>
 </div>
 <div class="btn-group btn-group-justified">
-	
-	
+
+
 		<?php echo $this->Html->link(__('Nuevo Documento'), array('action' => 'add'), array('class' => 'btn btn-danger')); ?>
 		<?php echo $this->Html->link(__('Lista Documentos'), array('action' => 'index'), array('class' => 'btn btn-info')); ?>
-		
-	
+
+
 </div>
