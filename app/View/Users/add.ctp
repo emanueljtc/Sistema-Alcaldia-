@@ -12,7 +12,7 @@
   }
 
 </style>
-<br>
+<br><br>
 <center><h2>Registro de Usuarios</h2></center>
 <br><br>
 <center>

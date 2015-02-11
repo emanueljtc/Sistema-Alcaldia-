@@ -1,6 +1,8 @@
 <div id="general">
-	<br><br><br><br>
+	
 	<center>
+	<?php echo $this->element('barnner');?>
+		<br><br><br>
 	<h2> Edicion de Usuario</h2>
 	<br><br>
 	<div  class="col-lg-6">
@@ -14,7 +16,7 @@
 								
 								
 								
-								
+								/*echo $this->Form->input('group_id', array('class'=>'form-control'));*/
 								echo $this->Form->input('username', array('class'=>'form-control'));
 								echo $this->Form->input('password', array('class'=>'form-control'));
 								echo $this->Form->input('nombre', array('class'=>'form-control'));

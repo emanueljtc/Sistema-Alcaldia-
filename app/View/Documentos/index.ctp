@@ -1,3 +1,4 @@
+
 <div class="documentos index">
 	<?php echo $this->element('barnner');?>
 	<div class="page_header">
@@ -10,8 +11,14 @@
 	</div>
 	<center>
 	<div class="col-lg-12">
+			<!--<?php echo $this->Form->create(array('controller' => 'documentos', 'action' => 'buscar', 'type' => 'post')); ?>
+								<?php echo $this->Form->input('buscador', array('placeholder' => 'Buscar por Cedula', 'label' => false)); ?>
+
+			 <?php echo $this->Form->end(__('Search', true)); ?> -->
+			 
+		
 			
-		<table class="table table-striped table-hover">
+		 <table class="table table-striped table-hover">
 		
 					<tr class="success">
 						
@@ -42,12 +49,13 @@
 						<?php echo $this->Html->link(__('V'), array('action' => 'view', $documento['Documento']['id']),array('class' => 'btn btn-sm btn-default')); ?>
 						<?php echo $this->Html->link(__('I'), array('action' => 'view', $documento['Documento']['id'].'.pdf' ),array('class' => 'btn btn-sm btn-default')); ?>
 						<?php echo $this->Html->link(__('E'), array('action' => 'edit', $documento['Documento']['id']),array('class' => 'btn btn-sm btn-default')); ?>
+						
 						<?php echo $this->Form->postLink(__('D'), array('action' => 'delete', $documento['Documento']['id']), array('class' => 'btn btn-sm btn-default'), __('Are you sure you want to delete # %s?', $documento['Documento']['id'])); ?>
 					</td>
 				</tr>
 				<?php endforeach; ?>
 					</tbody>
-		</table>
+		</table> 
 	</div>
 	
 	
@@ -55,6 +63,7 @@
 	<paginador><!-- etiqueta personalidad-->
 		<?php echo $this->element('paginador');?>
 	</paginador>
+	<?php echo $this->Js->writeBuffer();?>
 </div>
 <div class="btn-group btn-group-justified">
 	

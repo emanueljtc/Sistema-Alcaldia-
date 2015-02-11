@@ -1,6 +1,6 @@
 <div id="general">
-
-<br><br><br><br>
+<?php echo $this->element('barnner');?>
+<br><br><br>
 	<div class="col-lg-12">
 	<h2><?php echo __('Documento Detallado'); ?></h2>
 			<br><br>
@@ -83,7 +83,7 @@
 		
 			<?php echo $this->Html->link(__('Nuevo Documento'), array('action' => 'add'), array('class' => 'btn btn-danger')); ?>
 		<?php echo $this->Html->link(__('Lista de Documentos'), array('actions'=>'index'), array('class' => 'btn btn-info')); ?>
-		<?php echo $this->Html->link(__('I'), array('action' => 'view', $documento['Documento']['id'].'.pdf' ),array('class' => 'btn btn-sm btn-default')); ?>
+		<?php echo $this->Html->link(__('Imprimir'), array('action' => 'view', $documento['Documento']['id'].'.pdf' ),array('class' => 'btn btn-sm btn-primary')); ?>
 		
 	</div>
 </div>

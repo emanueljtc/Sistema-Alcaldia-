@@ -14,27 +14,22 @@ class DocumentosController extends AppController {
  *
  * @var array
  */
-	public $components = array('Paginator', 'Session','RequestHandler','Search.Prg');
-	/*public $paginate = array (
-			'limit' => 6,
-			'order' => array('Documento.nombre' => 'asc')
-			);*/
+	public $helpers = array('Html','Form','Time','Js');
+	public $components = array('Paginator', 'Session','RequestHandler');
+	public $paginate = array (
+			'limit' => 5,
+			'order' => array('Documento.id' => 'asc')
+			);
 /**
  * index method
  *
  * @return void
  */
 	public function index() {
-		$this->Documento->recursive = 0;
-		$this->set('documentos', $this->Paginator->paginate());
-		$this->Prg->commonProcess();
-		// process the URL parameters
-        $params = $this->Prg->parsedParams();
-        // generate the Paginator conditions
-        $conditions = $this->Documento->parseCriteria($params);
-        // add the conditions for paging
-        $this->Paginator->settings['conditions'] = $conditions;
-        $this->set('documentos', $this->Paginator->paginate());
+		
+        	$this->set('documentos',$this->Documento->find('all'));
+        	$this->Paginator->settings =$this->paginate;
+		    $this->set('documentos',$this->paginate());
 	}
 
 /**
@@ -46,7 +41,7 @@ class DocumentosController extends AppController {
  */
 	public function view($id = null) {
 		if (!$this->Documento->exists($id)) {
-			throw new NotFoundException(__('Invalid documento'));
+			throw new NotFoundException(__('Documento No Existe'));
 		}
 		$options = array('conditions' => array('Documento.' . $this->Documento->primaryKey => $id));
 		$this->set('documento', $this->Documento->find('first', $options));
@@ -61,10 +56,10 @@ class DocumentosController extends AppController {
 		if ($this->request->is('post')) {
 			$this->Documento->create();
 			if ($this->Documento->save($this->request->data)) {
-				$this->Session->setFlash(__('The documento has been saved.'));
+				$this->Session->setFlash(__('Documento Guardado.'));
 				return $this->redirect(array('action' => 'index'));
 			} else {
-				$this->Session->setFlash(__('The documento could not be saved. Please, try again.'));
+				$this->Session->setFlash(__('Documento no Guardado, Intente de Nuevo.'));
 			}
 		}
 		$solvencias = $this->Documento->Solvencia->find('list');
@@ -82,14 +77,14 @@ class DocumentosController extends AppController {
  */
 	public function edit($id = null) {
 		if (!$this->Documento->exists($id)) {
-			throw new NotFoundException(__('Invalid documento'));
+			throw new NotFoundException(__('Documento No Existe'));
 		}
 		if ($this->request->is(array('post', 'put'))) {
 			if ($this->Documento->save($this->request->data)) {
-				$this->Session->setFlash(__('The documento has been saved.'));
+				$this->Session->setFlash(__('Documento Actualizado.'));
 				return $this->redirect(array('action' => 'index'));
 			} else {
-				$this->Session->setFlash(__('The documento could not be saved. Please, try again.'));
+				$this->Session->setFlash(__('Documento no Actualizado, Intente de Nuevo.'));
 			}
 		} else {
 			$options = array('conditions' => array('Documento.' . $this->Documento->primaryKey => $id));
@@ -110,20 +105,19 @@ class DocumentosController extends AppController {
 	public function delete($id = null) {
 		$this->Documento->id = $id;
 		if (!$this->Documento->exists()) {
-			throw new NotFoundException(__('Invalid documento'));
+			throw new NotFoundException(__('Documento no Existe'));
 		}
 		$this->request->allowMethod('post', 'delete');
 		if ($this->Documento->delete()) {
-			$this->Session->setFlash(__('The documento has been deleted.'));
+			$this->Session->setFlash(__('Documento Eliminado.'));
 		} else {
-			$this->Session->setFlash(__('The documento could not be deleted. Please, try again.'));
+			$this->Session->setFlash(__('Documento no Eliminado. Intente de nuevo'));
 		}
 		return $this->redirect(array('action' => 'index'));
 	}
-	 public function find() {
-        $this->Prg->commonProcess();
-        $this->Paginator->settings['conditions'] = $this->Documento->parseCriteria($this->Prg->parsedParams());
-        $this->set('documentos', $this->Paginator->paginate());
-    }
+	public function buscar(){
+	$this->Documento->find('all', 
+		array('conditions'=>array('Documento.nombre'=>$this->request->data['Documento']['nombre'])));
+	}
 	
 }

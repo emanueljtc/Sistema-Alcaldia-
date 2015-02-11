@@ -11,4 +11,4 @@ img {
 }
 
 </style>
-<img src="../img/barnner.png" alt="Alcadia del Estado Guárico" width="780" height="129">
+<marquee loop="1" SCROLLAMOUNT="25" behavior = "slide" direction="right"><img src="../img/barnner.png" alt="Alcadia del Estado Guárico" width="780" height="129"></marquee>

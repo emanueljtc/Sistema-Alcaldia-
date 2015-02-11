@@ -19,14 +19,9 @@ class Documento extends AppModel {
  *
  * @var array
  */
-	public $actsAs = array('Search.Searchable');
+	
 
-    public $filterArgs = array(
-        'Documento' => array(
-            'type' => 'like',
-            'field' => 'cedula'
-        )
-    );
+    
 	public $validate = array(
 		'nombre' => array(
 			'notEmpty' => array(

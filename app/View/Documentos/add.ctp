@@ -169,6 +169,7 @@
 			<fieldset>
 				
 			<?php
+				
 				echo $this->Form->input('solvencia_id', array('class'=>'form-control'));
 				echo $this->Form->input('nombre');
 				echo $this->Form->input('apellidos');

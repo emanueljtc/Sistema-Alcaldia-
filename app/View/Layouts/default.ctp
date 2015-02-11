@@ -69,7 +69,7 @@ $cakeVersion = __d('cake_dev', 'CakePHP %s', Configure::version())
 					<div id="sidebar">
 					
 						<!-- Logo -->
-							<h1 id="logo"><a href="#">F.D.I.M.R</a></h1>
+							<h1 id="logo"><marquee loop="1" SCROLLAMOUNT="7" behavior = "slide" direction="up"><img src="/alcaldia/app/webroot/img/fondimur.png" alt="Alcaldia del Estado Guárico" width="189" height="135"></marquee></h1>
 								
 
 						<!-- Nav -->
@@ -85,19 +85,24 @@ $cakeVersion = __d('cake_dev', 'CakePHP %s', Configure::version())
 									<li >
 									<?php echo $this->Html->link(__('Documentos'), array('controller' => 'documentos', 'action' => 'index')); ?> 
 									</li>
-									<li>
+									<!--<li>
 										<A HREF="http://localhost/alcaldia2/solvencias">Solvencias</A>
 										
 
+									</li>-->
+									<li >
+									<?php echo $this->Html->link(__(' Solvencias'), array('controller' => 'solvencias', 'action' => 'index')); ?> 
 									</li>
 									
 									<li>
 									<?php echo $this->Html->link(__('Instituciones'), array('controller' => 'instituciones', 'action' => 'index')); ?>
 									</li>
+									<!-- <li>
+									<A HREF="http://localhost/alcaldia2/estadisticas">Estadisticas</A>
+									</li> -->
 									<li>
 									<?php echo $this->Html->link(__('Estadisticas'), array('controller' => 'estadisticas', 'action' => 'index')); ?>
 									</li>
-									
 									<li>
 									<?php echo $this->Html->link(__('Salir'), array('controller' => 'users', 'action' => 'logout')); ?>
 									</li>
@@ -108,8 +113,8 @@ $cakeVersion = __d('cake_dev', 'CakePHP %s', Configure::version())
 						
 							<!-- Search -->
 								<section class="box search">
-								<form method="post" action="#">
-									<input type="text" class="text" name="find" placeholder="Buscar por Cedula" />
+								<form method="post" action="documentos">
+									<input type="text" class="text" name="buscar" placeholder="Buscar por Cedula" />
 								</form>
 							</section>
 					<!-- Creado -->

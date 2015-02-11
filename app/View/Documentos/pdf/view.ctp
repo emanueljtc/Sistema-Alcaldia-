@@ -53,6 +53,7 @@ membrete{
 		Alcaldia del Estado Guarico<br>
 		Fondo Para El Desarrollo Integral del Municipio Roscio
 	</membrete>
+	
 	<br><br><br><br><br>
 	<h3>Constancia de Solicitud</h3>
 	<br><br><br><br>

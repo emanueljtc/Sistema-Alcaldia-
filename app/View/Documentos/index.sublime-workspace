@@ -1,0 +1,875 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"sw",
+				"box-shadow"
+			],
+			[
+				"h",
+				"height"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"font",
+				"font-style"
+			],
+			[
+				"hist",
+				"historium"
+			],
+			[
+				"fot",
+				"font-size"
+			],
+			[
+				"al",
+				"vertical-align"
+			],
+			[
+				"ce",
+				"cellspacing	Attr"
+			],
+			[
+				"fo",
+				"font-style"
+			],
+			[
+				"si",
+				"font-size"
+			],
+			[
+				"trs",
+				"trs	transition: ${1:prop} ${2:time};"
+			],
+			[
+				"pad",
+				"padding-left"
+			],
+			[
+				"margi",
+				"margin-bottom"
+			],
+			[
+				"bac",
+				"background-image"
+			],
+			[
+				"chek",
+				"checkbox"
+			],
+			[
+				"ba",
+				"background-position"
+			],
+			[
+				"back",
+				"background-repeat"
+			],
+			[
+				"not",
+				"notEmpty"
+			],
+			[
+				"aling",
+				"text-align"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"border-r",
+				"border-radius"
+			],
+			[
+				"col",
+				"color"
+			],
+			[
+				"font-",
+				"font-style"
+			],
+			[
+				"c",
+				"class	Attr"
+			],
+			[
+				"min",
+				"min"
+			],
+			[
+				"backgron",
+				"background-origin"
+			],
+			[
+				"background",
+				"background-image"
+			],
+			[
+				"pagin",
+				"Paginator"
+			],
+			[
+				"pass",
+				"Password"
+			],
+			[
+				"op",
+				"option	Tag"
+			],
+			[
+				"lable",
+				"label"
+			],
+			[
+				"arra",
+				"array"
+			],
+			[
+				"php",
+				"php"
+			],
+			[
+				"na",
+				"name"
+			],
+			[
+				"S",
+				"Student"
+			],
+			[
+				"ac",
+				"action"
+			],
+			[
+				"rede",
+				"redirect"
+			],
+			[
+				"end",
+				"endif"
+			],
+			[
+				"for",
+				"foreach	foreach …"
+			],
+			[
+				"render",
+				"render_to_response"
+			],
+			[
+				"html",
+				"html5	html5"
+			],
+			[
+				"in",
+				"input"
+			],
+			[
+				"bor",
+				"border"
+			],
+			[
+				"tb",
+				"table	Tag"
+			],
+			[
+				"mode",
+				"models"
+			],
+			[
+				"ti",
+				"tipo"
+			],
+			[
+				"m",
+				"mostrar"
+			],
+			[
+				"get",
+				"getCurrentPosition"
+			],
+			[
+				"ma",
+				"maxima"
+			],
+			[
+				"mat",
+				"mate1"
+			],
+			[
+				"notas",
+				"notas"
+			],
+			[
+				"pr",
+				"print"
+			],
+			[
+				"el",
+				"elif"
+			],
+			[
+				"a",
+				"alert"
+			],
+			[
+				"o",
+				"opcionUsuario"
+			],
+			[
+				"re",
+				"request"
+			],
+			[
+				"reu",
+				"request"
+			],
+			[
+				"Htt",
+				"HTTPResponse"
+			],
+			[
+				"tab",
+				"tabActual"
+			],
+			[
+				"ta",
+				"tapInicial"
+			],
+			[
+				"Tap",
+				"tapInicial"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"scr",
+				"scrollTop"
+			],
+			[
+				"se",
+				"secciones"
+			],
+			[
+				"bak",
+				"background-color"
+			],
+			[
+				"padding-",
+				"padding-bottom"
+			],
+			[
+				"padi",
+				"padding-top"
+			],
+			[
+				"padd",
+				"padding-top"
+			],
+			[
+				"marg",
+				"margin-top"
+			],
+			[
+				"ff",
+				"ff5105"
+			],
+			[
+				"mar",
+				"margin-top"
+			],
+			[
+				"b",
+				"background"
+			],
+			[
+				"pa",
+				"padding-right"
+			],
+			[
+				"tex",
+				"text-decoration"
+			],
+			[
+				"margin",
+				"margin-left"
+			],
+			[
+				"list",
+				"list-style"
+			],
+			[
+				"i",
+				"img	Tag"
+			],
+			[
+				"ar",
+				"article	Tag"
+			],
+			[
+				"sr",
+				"script	Tag"
+			],
+			[
+				"boto",
+				"boton_click"
+			],
+			[
+				"backgr",
+				"background-color"
+			],
+			[
+				"mysq",
+				"mysql_query"
+			],
+			[
+				"mysql_c",
+				"mysql_connect"
+			],
+			[
+				"_",
+				"_POST"
+			],
+			[
+				"t",
+				"type	Attr"
+			],
+			[
+				"mysq_s",
+				"mysql_select_db"
+			],
+			[
+				"p",
+				"pw"
+			],
+			[
+				"mys",
+				"mysql_connect"
+			],
+			[
+				"user",
+				"user"
+			],
+			[
+				"mysql",
+				"mysql_error"
+			],
+			[
+				"Cons",
+				"CONSULTAR"
+			],
+			[
+				"tr",
+				"traer"
+			],
+			[
+				"fg",
+				"fgets"
+			],
+			[
+				"ele",
+				"elemento"
+			],
+			[
+				"elem",
+				"elementos"
+			],
+			[
+				"as",
+				"asocia"
+			],
+			[
+				"valor",
+				"valor2"
+			],
+			[
+				"valo",
+				"valor1"
+			],
+			[
+				"cla",
+				"clave1"
+			],
+			[
+				"element",
+				"elemento1"
+			],
+			[
+				"backg",
+				"background-image"
+			],
+			[
+				"li",
+				"link	Tag"
+			],
+			[
+				"le",
+				"letter-spacing"
+			],
+			[
+				"v",
+				"views"
+			],
+			[
+				"htt",
+				"HttpResponseRedirect"
+			],
+			[
+				"d",
+				"django"
+			],
+			[
+				"C",
+				"CharField"
+			],
+			[
+				"ENTRADA",
+				"entrada"
+			],
+			[
+				"ren",
+				"render_to_response"
+			],
+			[
+				"r",
+				"request"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"he",
+				"header	Tag"
+			],
+			[
+				"pagi",
+				"paginator"
+			],
+			[
+				"pagina",
+				"paginator"
+			],
+			[
+				"u",
+				"ul	Tag"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 117.0,
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"git",
+				"Git: Blame"
+			],
+			[
+				"Git",
+				"Git: Blame"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ins",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: inst",
+				"Package Control: Install Package"
+			],
+			[
+				"Snippet: ",
+				"Snippet: html5"
+			],
+			[
+				"Snippet: ht",
+				"Snippet: html5"
+			],
+			[
+				"Snippet: html",
+				"Snippet: html5"
+			],
+			[
+				"Package Control: i",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: s",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 575.0
+	},
+	"console":
+	{
+		"height": 146.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/var/www/html/historias/app/Controller/HistoriaController.php",
+		"/var/www/html/historias/app/webroot/css/bootstrap.css",
+		"/var/www/html/historias/app/View/Elements/b2.ctp",
+		"/var/www/html/historias/app/View/Elements/b1.ctp",
+		"/var/www/html/historias/app/View/Historia/index.ctp",
+		"/var/www/html/historias/app/View/Historia/add.ctp",
+		"/var/www/html/historias/app/View/Historia/edit.ctp",
+		"/var/www/html/historias/app/View/Historia/view.ctp",
+		"/var/www/html/historias/app/Model/Historium.php",
+		"/var/www/html/historias/app/webroot/css/skel.css",
+		"/var/www/html/historias/app/webroot/css/style-desktop.css",
+		"/var/www/html/historias/app/webroot/css/style.css",
+		"/var/www/html/historias/app/View/Layouts/default.ctp",
+		"/var/www/html/historias/app/View/Elements/paginador.ctp",
+		"/var/www/html/historias/app/webroot/js/fileinput.min.js",
+		"/var/www/html/historias/app/webroot/css/fileinput.min.css",
+		"/var/www/html/Reporte/general/solvencias/index.htm",
+		"/var/www/html/Reporte/general/registros-anual/index.htm",
+		"/var/www/html/Reporte/general/registros/index.htm",
+		"/var/www/html/restaurante/app/Config/bootstrap.php",
+		"/var/www/html/info.php",
+		"/var/www/html/historias/app/Config/bootstrap.php",
+		"/var/www/html/alcaldia/app/View/Documentos/index.ctp",
+		"/var/www/html/alcaldia/app/View/Layouts/default.ctp",
+		"/var/www/html/alcaldia/app/Controller/DocumentosController.php",
+		"/var/www/html/alcaldia/app/View/Pages/home.ctp",
+		"/var/www/html/alcaldia/app/View/Instituciones/edit.ctp",
+		"/var/www/html/alcaldia/app/View/Elements/barnner-2.ctp",
+		"/var/www/html/alcaldia/app/View/Elements/barnner-3.ctp",
+		"/var/www/html/alcaldia/app/View/Elements/barnner.ctp",
+		"/var/www/html/alcaldia/lib/Cake/Controller/Component/AuthComponent.php",
+		"/var/www/html/alcaldia/app/View/Documentos/pdf/view.ctp",
+		"/var/www/html/alcaldia/app/Controller/UsersController.php",
+		"/var/www/html/alcaldia/app/View/Solvencias/index.ctp",
+		"/var/www/html/alcaldia/app/View/Users/view.ctp",
+		"/var/www/html/alcaldia/app/View/Instituciones/view.ctp",
+		"/var/www/html/alcaldia2/app/View/Estadisticas/index.ctp",
+		"/var/www/html/Reporte/general/registros-mensual/index.htm",
+		"/var/www/html/alcaldia2/app/View/Layouts/default.ctp",
+		"/var/www/html/Reporte/examples/column-basic/index.htm",
+		"/var/www/html/Reporte/index.htm",
+		"/var/www/html/alcaldia2/app/View/Solvencias/view.ctp",
+		"/var/www/html/alcaldia2/app/Controller/SolvenciasController.php",
+		"/var/www/html/alcaldia/app/View/Users/edit.ctp",
+		"/var/www/html/alcaldia/app/View/Users/add.ctp",
+		"/var/www/html/alcaldia/app/View/Elements/paginador.ctp",
+		"/var/www/html/alcaldia/app/View/Solvencias/view.ctp",
+		"/var/www/html/alcaldia2/app/Controller/UsersController.php",
+		"/var/www/html/alcaldia2p/app/View/Solvencias/view.ctp",
+		"/var/www/html/alcaldia/app/Controller/database.php",
+		"/var/www/html/alcaldia/app/Config/database.php",
+		"/var/www/html/alcaldia/app/View/Solvencias/pdf/view.ctp",
+		"/var/www/html/alcaldia2/app/View/Solvencias/add.ctp",
+		"/var/www/html/alcaldia2/app/View/Solvencias/edit.ctp",
+		"/var/www/html/alcaldia2/app/View/Instituciones/view.ctp",
+		"/var/www/html/alcaldia/app/View/Documentos/view.ctp",
+		"/var/www/html/restaurante/app/Controller/MesasController.php",
+		"/var/www/html/restaurante/app/Controller/MeserosController.php",
+		"/var/www/html/restaurante/app/View/Meseros/index.ctp",
+		"/var/www/html/restaurante/app/View/Mesas/index.ctp",
+		"/var/www/html/restaurante/app/Controller/PagesController.php",
+		"/var/www/html/restaurante/app/Model/Mesero.php",
+		"/var/www/html/restaurante/app/View/Meseros/editar.ctp",
+		"/var/www/html/restaurante/app/View/Meseros/ver.ctp",
+		"/var/www/html/alcaldia2/app/View/Solvencias/pdf/view.ctp",
+		"/var/www/html/alcaldia/app/webroot/css/bootstrap.css",
+		"/var/www/html/alcaldia/app/View/Users/login.ctp",
+		"/var/www/html/alcaldia/app/Controller/AppController.php",
+		"/var/www/html/alcaldia/app/Controller/SolvenciasController.php",
+		"/var/www/html/alcaldia/app/View/Documentos/edit.ctp",
+		"/var/www/html/alcaldia/app/Config/bootstrap.php",
+		"/var/www/html/alcaldia/app/Model/Documento.php",
+		"/var/www/html/cakephp/app/Model/Teacher.php",
+		"/var/www/html/cakephp/app/Controller/TeachersController.php",
+		"/var/www/html/alcaldia/app/Plugin/Search/Model/Behavior/SearchableBehavior.php",
+		"/var/www/html/sistema/consul_individual_pro.php",
+		"/var/www/html/sistema/consul_individual_pro2.php",
+		"/var/www/html/restaurantefinal/restaurante/app/Controller/MesasController.php",
+		"/var/www/html/restaurantefinal/restaurante/app/Controller/PagesController.php",
+		"/var/www/html/restaurantefinal/restaurante/app/Controller/OrdensController.php",
+		"/var/www/html/restaurantefinal/restaurante/app/Controller/CocinerosController.php",
+		"/var/www/html/Reporte/general/3d-pie/index.htm",
+		"/var/www/html/alcaldia/app/View/Documentos/search.ctp",
+		"/var/www/html/alcaldia/app/View/Documentos/add.ctp",
+		"/var/www/html/alberto/app/Controller/PagesController.php",
+		"/var/www/html/alberto/app/View/Pages/municipios.ctp",
+		"/var/www/html/alberto/app/Controller/AppController.php",
+		"/var/www/html/Reporte/general/3d-column-interactive/index.htm",
+		"/var/www/html/alcaldia/app/View/Estadisticas/index.ctp",
+		"/var/www/html/alcaldia2/app/Controller/GroupsController.php",
+		"/home/lordsystem/.config/sublime-text-3/Packages/WakaTime/WakaTime.sublime-settings",
+		"/home/lordsystem/.config/sublime-text-3/Packages/User/WakaTime.sublime-settings",
+		"/var/www/html/alcaldia/app/Plugin/AclExtras/Console/Command/AclExtrasShell.php",
+		"/var/www/html/alcaldia2p/app/Controller/DocumentosController.php",
+		"/var/www/html/alcaldia/app/Config/routes.php",
+		"/var/www/html/alcaldia2p/app/View/Solvencias/add.ctp",
+		"/var/www/html/alcaldia2/app/Config/bootstrap.php",
+		"/var/www/html/alcaldia/app/webroot/css/style.css",
+		"/var/www/html/cakephp/app/View/Layouts/home.ctp",
+		"/var/www/html/cakephp/app/View/Teachers/index.ctp",
+		"/var/www/html/cakephp/app/View/Layouts/default.ctp",
+		"/var/www/html/cakephp/app/View/Teachers/auto_complete.ctp",
+		"/var/www/html/alcaldia2/app/Model/Solvencia.php",
+		"/var/www/html/alcaldia2/app/Model/Institucione.php",
+		"/var/www/html/alcaldia (copia)/app/View/Documentos/index.ctp",
+		"/var/www/html/alcaldia (copia)/app/View/Documentos/add.ctp",
+		"/var/www/html/combos/select_dependientes.php",
+		"/var/www/html/itnesdras710/main/css/bootstrap.css",
+		"/var/www/html/proyecto/app/Config/bootstrap.php",
+		"/var/www/html/guia-telefonica/vendor/nikic/php-parser/lib/PHPParser/Node/Expr/BitwiseOr.php",
+		"/home/lordsystem/Documentos/CURSOS/python/bucles.py",
+		"/var/www/html/alcaldia/app/View/Layouts/pdf/default.ctp",
+		"/var/www/html/fondumir/Vista/Recoleccion_Documentos.html",
+		"/home/lordsystem/Descargas/cl_user.xml",
+		"/var/www/html/combos/conexion.php",
+		"/var/www/html/alcaldia2/app/View/Errors/pdo_error.ctp",
+		"/var/www/html/alcaldia/app/View/Instituciones/index.ctp",
+		"/var/www/html/alcaldia/app/Vendor/tcpdf/xtcpdf.php",
+		"/var/www/html/alcaldia/app/webroot/css/style-desktop.css",
+		"/var/www/html/alcaldia/app/webroot/css/login.css",
+		"/media/lordsystem/ETC/alcaldia2/app/View/Layouts/default.ctp",
+		"/var/www/html/alcaldia/app/View/Layouts/pdf/pdf.ctp",
+		"/home/lordsystem/Documentos/CURSOS/python/lambda.py",
+		"/var/www/html/itnesdras710/main/newscorm/lp_impress.php",
+		"/var/www/html/itnesdras710/main/inc/entity/lp_item_view.class.php",
+		"/var/www/html/itnesdras710/main/exercice/live_stats.php",
+		"/var/www/html/itnesdras710/main/link/link_form.class.php",
+		"/var/www/html/itnesdras710/main/inc/lib/symfony/Doctrine/ORM/Query/AST/NullIfExpression.php"
+	],
+	"find":
+	{
+		"height": 27.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"documento",
+			"}\n",
+			" ",
+			"documento",
+			"Solvenciasid",
+			"No Consignado",
+			"noconsignado",
+			"Solvenciaid",
+			"Documento",
+			"user",
+			">\n",
+			";</",
+			"well bs-component",
+			"form-control",
+			"Grupo",
+			">",
+			"form-control",
+			"images",
+			"br",
+			">\n",
+			".nav ",
+			".anav",
+			".active",
+			"navbar",
+			"arial",
+			"ataque",
+			"cachemem",
+			"http_port",
+			"								",
+			"pn",
+			");\n",
+			";\n",
+			"h2"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"historium",
+			"solvencia",
+			"Pendiente",
+			"pendiente",
+			"Solvencia",
+			"group",
+			"bloque",
+			"formulario",
+			"Group"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 42.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "index.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"boo",
+				"itnesdras710/main/css/bootstrap.css"
+			],
+			[
+				"add.ctp",
+				"alcaldia2/app/View/Solvencias/add.ctp"
+			],
+			[
+				"",
+				"alcaldia/app/View/Instituciones/add.ctp"
+			],
+			[
+				"user.",
+				"app/Model/User.php"
+			],
+			[
+				"solven",
+				"alcaldia/app/Model/Solvencia.php"
+			],
+			[
+				"defaul.p",
+				"guia-telefonica/vendor/nikic/php-parser/lib/PHPParser/PrettyPrinter/Default.php"
+			],
+			[
+				"configure",
+				"itnesdras710/main/admin/configure_extensions.php"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 254.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

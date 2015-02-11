@@ -1,5 +1,7 @@
 <div id="general">
-<center><br><br><br><br>
+<center>
+<?php echo $this->element('barnner');?>
+<br><br><br>
 <h2><?php echo __('Edici&oacuten de Usuario'); ?></h2>
 		<br><br>
 	<div class="col-lg-12">

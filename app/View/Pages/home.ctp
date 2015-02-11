@@ -170,8 +170,8 @@ input[name="slider-select-element"] {
 </style>
 
  			
- <img src="../img/barnner.png" alt="Alcadia del Estado Guárico" width="780" height="110">
- <br> <br> <br><br>
+ <marquee loop="1" SCROLLAMOUNT="25" behavior = "slide" direction="right"><img src="../img/barnner.png" alt="Alcadia del Estado Guárico" width="780" height="129"></marquee>
+ <br> <br> <br>
         <Titulo>
             <h2>Bienvenidos </h2><hr>
         </Titulo>

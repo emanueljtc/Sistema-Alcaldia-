@@ -1,8 +1,8 @@
 <div id = general>
 		<center>
-		<br>
-		<br>
-		<br><br>
+		<?php echo $this->element('barnner');?>
+		<br><br><br>
+		
 		<h2> Edicion de Solvencia</h2>
 		<br><br>
 		<div class="col-lg-6">
@@ -13,8 +13,8 @@
 					<?php
 						echo $this->Form->input('id');
 						echo $this->Form->input('instituciones_id',array('class'=>'form-control'));
-						echo $this->Form->input('cedula',array('class'=>'form-control'));
-						echo $this->Form->input('estado',array('class'=>'form-control'));
+						echo $this->Form->input('cedula', array('type'=>'integer','class'=>'form-control'));
+						echo $this->Form->input('estado',array('label'=>'Estado','class'=>'form-control','type'=>'select','options'=>array('Solvente'=>'Solvente',' No Solvente'=>'No Solvente')));
 					?>
 					</fieldset>
 						<br>

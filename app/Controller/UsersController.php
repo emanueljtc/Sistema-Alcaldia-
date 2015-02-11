@@ -13,7 +13,12 @@ class UsersController extends AppController {
  *
  * @var array
  */
-	public $components = array('Paginator');
+	public $helpers = array('Html','Form','Time','Js');
+	public $components = array('Paginator', 'Session','RequestHandler');
+	public $paginate = array (
+			'limit' => 5,
+			'order' => array('Documento.id' => 'asc')
+			);
 
 /**
  * index method
@@ -43,8 +48,10 @@ class UsersController extends AppController {
 		$this->redirect($this->Auth->logout());
 	}
 	public function index() {
-		$this->User->recursive = 0;
-		$this->set('users', $this->Paginator->paginate());
+		
+		$this->set('users',$this->User->find('all'));
+        	$this->Paginator->settings =$this->paginate;
+		    $this->set('users',$this->paginate());
 	}
 
 /**
@@ -104,9 +111,11 @@ class UsersController extends AppController {
 			$options = array('conditions' => array('User.' . $this->User->primaryKey => $id));
 			$this->request->data = $this->User->find('first', $options);
 		}
-		$grupos = $this->User->Group->find('list');
+		$groups = $this->User->Group->find('list');
+		
+		$this->set(compact('groups'));
 		//$departamentos = $this->User->Departamento->find('list');
-		//$this->set(compact('grupos', 'departamentos'));
+		
 	}
 
 /**
@@ -150,10 +159,11 @@ class UsersController extends AppController {
     // Acceso al Grupo de operadores
     $group->id = 2;
     $this->Acl->deny($group, 'controllers');
-   
+    $this->Acl->deny($group, 'controllers/Instituciones');
     $this->Acl->allow($group, 'controllers/Solvencias');
-    $this->Acl->allow($group, 'controllers/Instituciones');
     $this->Acl->allow($group, 'controllers/Documentos');
+    $this->Acl->allow($group, 'controllers/Estadisticas');
+
 
     // Acceso a otros grupos
     /*$group->id = 3;

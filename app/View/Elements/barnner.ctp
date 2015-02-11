@@ -11,4 +11,4 @@ img {
 }
 
 </style>
-<img src="app/webroot/img/barnner.png" alt="Alcaldia del Estado Guárico" width="780" height="129">
+<marquee loop="1" SCROLLAMOUNT="25" behavior = "slide" direction="right"><img src="/alcaldia/app/webroot/img/barnner.png" alt="Alcaldia del Estado Guárico" width="780" height="129"></marquee>

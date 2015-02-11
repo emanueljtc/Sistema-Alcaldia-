@@ -37,7 +37,7 @@
 				<td><?php echo h($solvencia['Solvencia']['modified']); ?>&nbsp;</td>
 				<td class="actions">
 					<?php echo $this->Html->link(__('V'), array('action' => 'view', $solvencia['Solvencia']['id']),array('class' => 'btn btn-sm btn-default')); ?>
-					<?php echo $this->Html->link(__('I'), array('action' => 'imprimir', $solvencia['Solvencia']['id']),array('class' => 'btn btn-sm btn-default')); ?>
+					<!--<?php echo $this->Html->link(__('I'), array('action' => 'view', $solvencia['Solvencia']['id'].'.pdf' ),array('class' => 'btn btn-sm btn-default')); ?>-->
 					<?php echo $this->Html->link(__('E'), array('action' => 'edit', $solvencia['Solvencia']['id']),array('class' => 'btn btn-sm btn-default')); ?>
 					<?php echo $this->Form->postLink(__('D'), array('action' => 'delete', $solvencia['Solvencia']['id']), array('class' => 'btn btn-sm btn-default'), __('Are you sure you want to delete # %s?', $solvencia['Solvencia']['id'])); ?>
 				</td>

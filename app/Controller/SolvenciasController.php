@@ -15,6 +15,10 @@ class SolvenciasController extends AppController {
  * @var array
  */
 	public $components = array('Paginator', 'Session');
+	public $paginate = array (
+			'limit' => 5,
+			'order' => array('Solvencia.cedula' => 'desc')
+			);
 
 /**
  * index method
@@ -23,6 +27,7 @@ class SolvenciasController extends AppController {
  */
 	public function index() {
 		$this->Solvencia->recursive = 0;
+		$this->Paginator->settings =$this->paginate;
 		$this->set('solvencias', $this->Paginator->paginate());
 	}
 
@@ -37,7 +42,7 @@ class SolvenciasController extends AppController {
 		if (!$this->Solvencia->exists($id)) {
 			throw new NotFoundException(__('Invalid solvencia'));
 		}
-		$options = array('conditions' => array('Solvencia' . $this->Solvencia->primaryKey => $id));
+		$options = array('conditions' => array('Solvencia.' . $this->Solvencia->primaryKey => $id));
 		$this->set('solvencia', $this->Solvencia->find('first', $options));
 		
 		}

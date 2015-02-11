@@ -1,7 +1,9 @@
 <div id="general">
-	<center><br><br>
+	<center>
+	<?php echo $this->element('barnner');?>
+	<br><br><br>
 	<div class="col-lg-12">
-				<br><br><br>
+				
 				<h2>Instituci&oacuten Detallada</h2>
 				<br><br><br>
 		<div class="bloque"> 

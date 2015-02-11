@@ -1,6 +1,7 @@
 <div id="general">
 	<center>
-	<br>
+	
+	<?php echo $this->element('barnner');?>
 	<br>
 	<br><br>
 	<h2> Edicion de Institucion</h2>
